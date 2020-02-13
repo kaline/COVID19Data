@@ -1,1 +1,5 @@
 c:\users\kaline-mesquita\documents\visual studio 2015\Projects\KyteBank\KyteBank\bin\Debug\KyteBank.exe.config
+c:\users\kaline-mesquita\documents\visual studio 2015\Projects\KyteBank\KyteBank\bin\Debug\KyteBank.exe
+c:\users\kaline-mesquita\documents\visual studio 2015\Projects\KyteBank\KyteBank\bin\Debug\KyteBank.pdb
+c:\users\kaline-mesquita\documents\visual studio 2015\Projects\KyteBank\KyteBank\obj\Debug\KyteBank.exe
+c:\users\kaline-mesquita\documents\visual studio 2015\Projects\KyteBank\KyteBank\obj\Debug\KyteBank.pdb

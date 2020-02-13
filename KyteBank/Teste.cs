@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace KyteBank
 {
-    class Program
+    class Teste
     {
         static void Main(string[] args)
         {
-            string titular;
-            int numeroAgencia;
-            int numeroConta;
-            float saldo;
+            ContaCorrente conta = new ContaCorrente();
+            conta.titular = "nenem";
+
+            Console.WriteLine(conta.titular + " " + conta.saldo);
 
         }
+
     }
 }
