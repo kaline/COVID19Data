@@ -13,7 +13,9 @@ namespace KyteBank
             ContaCorrente conta = new ContaCorrente();
             conta.titular = "nenem";
 
-            Console.WriteLine(conta.titular + " " + conta.saldo);
+            Console.WriteLine(conta.titular + "\n " + conta.saldo);
+
+            Console.ReadLine();
 
         }
 
