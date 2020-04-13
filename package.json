@@ -1,0 +1,22 @@
+{
+  "name": "covid19data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaline/COVID19Data.git"
+  },
+  "author": "kaline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaline/COVID19Data/issues"
+  },
+  "homepage": "https://github.com/kaline/COVID19Data#readme",
+  "dependencies": {
+    "http": "0.0.1-security"
+  }
+}
