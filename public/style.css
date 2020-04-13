@@ -1,0 +1,96 @@
+#titulo{
+    color:royalblue;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px 0 100px 0;
+    background-color:purple;
+
+}
+#titulo::before{
+    content: "🦠";
+}
+#data{
+    text-align: center;
+    font-size: "30px";
+    font-weight: bold;
+
+}
+#dataBrazil{
+    text-align: center;
+    font-weight: bolder;
+}
+#dataBrazil::before{
+    content: url('https://api.iconify.design/emojione-v1:flag-for-brazil.svg?height=100');
+    margin: 50px 50px 50px 30px;
+}
+#dateTodayDead{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 0 30px;
+
+}
+#dateTodayDead::before{
+    content: url('https://api.iconify.design/twemoji:skull.svg?height=100');
+    vertical-align: -0.125em;
+   
+}
+#dateToday{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0px 0 0 20px;
+
+}
+#dateToday::before{
+    content: url('https://api.iconify.design/emojione:calendar.svg?height=100');
+    vertical-align: -0.125em;
+   
+}
+#dateTodayConfirmed{
+    
+    position: absolute;
+    color:rgb(255,0,255);
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 0 200px;
+
+}
+#dateTodayConfirmed::before{
+    content: url('https://api.iconify.design/emojione:face-with-medical-mask.svg?height=100');
+    vertical-align: -0.125em;
+   
+}
+#dateTodayRecovered{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+
+}
+#dateTodayRecovered::before{
+    content: url('https://api.iconify.design/fxemoji:smallsmile.svg?height=100');
+    vertical-align: -0.125em;
+   
+}
+#InfoFooter{
+    position: absolute;
+    margin: 300px 0 0 0;
+    background-color: lightblue;
+    
+}
+#github{
+    text-align: center;
+
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  margin: 300px 0 0 0;
+  border:black solid 5px;
+  padding: 10px 10px 10px 10px;
+}
+#github::before{
+    content: url('https://api.iconify.design/logos:github-octocat.svg?height=30');
+    vertical-align: -0.450em;
+}
