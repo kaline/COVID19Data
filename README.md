@@ -28,11 +28,12 @@
 
 <h2>Copyright<h2>
 
-<p>&#169;&#65039; Kaline B.F Mesquita</p>
+<p>&#169; Kaline B.F Mesquita</p>
 
 <hr>
 
 <h2>&#128161; References<h2>
+  
  <div>
 <li>
   <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
