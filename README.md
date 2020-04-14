@@ -10,7 +10,7 @@
 </p>
 <hr>
 
-## How to use?
+<h2>&#128466;&#65039;How to use?</h2>
 
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript">JS</a></li>
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
