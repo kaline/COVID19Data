@@ -4,7 +4,7 @@
 
 <hr>
 
-## What's it?
+<h2>&#128105;&#8205;&#127979;What's it?</h2>
 <p>
   A web application which you can visualizer data daily about <a href="https://coronavirus.saude.gov.br/">COVID19</a>.
 </p>
@@ -27,7 +27,7 @@
 <p>&#169;&#65039; Kaline B.F Mesquita</p>
 <hr>
 
-## References
+<h2>&#128161;References<h2>
 <li>
   <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
 </li>
