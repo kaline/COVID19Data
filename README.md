@@ -16,7 +16,7 @@
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
 <hr>
 
-<h2>Contribuitors</h2>
+<h2>&#127881;Contribuitors</h2>
 
   <p>Feel free to fork and give me some advice!</p>
   
