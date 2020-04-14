@@ -9,6 +9,7 @@
 <p>
   A web application which you can visualizer data daily about <a href="https://coronavirus.saude.gov.br/">COVID19</a>.
 </p>
+
 <hr>
 
 <h2>&#128466;&#65039;How to use?</h2>
@@ -16,6 +17,7 @@
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript">JS</a></li>
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
 <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
+
 <hr>
 
 <h2>&#127881;Contribuitors</h2>
@@ -27,6 +29,7 @@
 <h2>Copyright<h2>
 
 <p>&#169;&#65039; Kaline B.F Mesquita</p>
+
 <hr>
 
 <h2>&#128161; References<h2>
