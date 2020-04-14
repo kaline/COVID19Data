@@ -23,7 +23,7 @@
 <hr>
 
 ## Copyright
-
+<p>&#169;&#65039; Kaline B.F Mesquita</p>
 <hr>
 
 ## References
