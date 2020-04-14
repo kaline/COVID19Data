@@ -1,23 +1,38 @@
-# COV19Data
+<h1> &#129440; COV19Data</h1>
+
 ***Version 1.0.0***
 
 <hr>
 
-## What's it?
+<h2>&#128105;&#8205;&#127979;What's it?</h2>
+
+<p>
+  A web application which you can visualizer data daily about <a href="https://coronavirus.saude.gov.br/">COVID19</a>.
+</p>
 
 <hr>
 
-## How to use?
+<h2>&#128466;&#65039;How to use?</h2>
+
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript">JS</a></li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
 
 <hr>
 
-## Contribuitors
+<h2>&#127881;Contribuitors</h2>
+
   <p>Feel free to fork and give me some advice!</p>
   
 <hr>
 
-## Copyright
+<h2>Copyright<h2>
+
+<p>&#169; Kaline B.F Mesquita</p>
 
 <hr>
 
-## References
+<h2>&#128161; References<h2>
+  
+ <a href="https://pomber.github.io/covid19/timeseries.json">API</a>
+
