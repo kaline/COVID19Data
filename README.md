@@ -21,3 +21,4 @@
 <hr>
 
 ## References
+<li href="https://pomber.github.io/covid19/timeseries.json">API</li>
