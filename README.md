@@ -29,8 +29,8 @@
 <p>&#169;&#65039; Kaline B.F Mesquita</p>
 <hr>
 
-<h2>&#128161;References<h2>
+<h2>&#128161; References<h2>
   
 <li>
-  <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
+  <p href=" href="https://pomber.github.io/covid19/timeseries.json">API</p>
 </li>
