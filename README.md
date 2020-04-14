@@ -33,7 +33,8 @@
 <hr>
 
 <h2>&#128161; References<h2>
-  
+ <div>
 <li>
   <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
 </li>
+ </div>
