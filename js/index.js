@@ -1,6 +1,4 @@
-
-
-    url = "https://pomber.github.io/covid19/timeseries.json";
+url= "https://pomber.github.io/covid19/timeseries.json";
     fetch(url)
     .then(response => {
         return response.json();

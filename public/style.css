@@ -3,41 +3,57 @@
     font-size: 80px;
     width:100%;
     text-align: center;
-    margin: 0px 0 100px 0;
+    margin: 0px 0 120px 0;
     background-color:#102935;
 
 }
 #titulo::before{
     content: "🦠";
+    font-size: 70px;
 }
+.body{
+    position: absolute;
 
+}
+#status{
+    text-align: center;
+    border: black solid 2px;
+    padding: 40px;
+    margin: 20px 20px 20px 20px;
+    
+}
+.textStatus{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
 #dataBrazil{
     font-weight: bolder;
     text-align: left;
-    margin: 60px 200px 0 40px;
+    margin: 60px;
 
 }
 #dataBrazil::before{
     content: url('https://api.iconify.design/emojione-v1:flag-for-brazil.svg?height=60');
-    margin: 60px 0px 40px 0px;
+    /* margin: 60px 0px 40px 0px; */
+}
+#dateToday{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+     margin: 0px 0px 30px 0; 
+
 }
 #dateTodayDead{
     color:black;
     font-style: italic;
     font-size: 40px;
     font-weight: bold;
-    margin: 20px 0 0 0;
-    padding: 10px 0 0 0;
+    margin:  0 0 0 0;
 
 }
 
-#dateToday{
-    color: black;
-    font-style: italic;
-    font-weight: bold;
-    margin: 0px 0px 20px 0;
 
-}
 
 #dateTodayConfirmed{
     
@@ -59,6 +75,8 @@
 }
 .iconify{
     font-size: 40px;
+    /* margin: 0 0px 0 100px; */
+   
 }
 
 #Footer{
