@@ -34,5 +34,5 @@
 
 <h2>&#128161; References<h2>
   
- <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
+ <a href="https://pomber.github.io/covid19/timeseries.json">API</a>
 
