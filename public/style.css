@@ -11,15 +11,20 @@
     content: "🦠";
     font-size: 70px;
 }
-.body{
-    position: absolute;
+body{
 
 }
+section{
+    position: absolute;
+    
+    
+}
+
 #status{
-    text-align: center;
+     text-align: center; 
     border: black solid 2px;
     padding: 40px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 400px;
     
 }
 .textStatus{
@@ -80,8 +85,7 @@
 }
 
 #Footer{
-    position: absolute;
-    margin: 300px 0 0 0;
+    margin: 900px 0 0 0;
     width: 100%;
     background-color: lightblue;
     padding: 10px;
