@@ -24,7 +24,7 @@
   
 <hr>
 
-## Copyright
+<h2>Copyright<h2>
 
 <p>&#169;&#65039; Kaline B.F Mesquita</p>
 <hr>
@@ -32,5 +32,5 @@
 <h2>&#128161; References<h2>
   
 <li>
-  <p href=" href="https://pomber.github.io/covid19/timeseries.json">API</p>
+  <a href=" href="https://pomber.github.io/covid19/timeseries.json">API</a>
 </li>
