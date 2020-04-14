@@ -4,23 +4,38 @@
         <meta charset="UTF-8">
         <title>☣Covid19Data</title>
         <link rel="stylesheet" type="text/css" href="style.css"></link>
-       
+
+        <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
+
     </head>
     <body>
         <h1 id="titulo">Covid19Data</h1>
         <section>
-            <a id="data"></a>
-            <a id="dataBrazil"></a>
-            <a id="dateToday"></a>
-            <a id="dateTodayRecovered"></a>
-            <a id="dateTodayConfirmed"></a>
-            <a id="dateTodayDead"></a>
+            <div>
+            <span class="iconify"  data-icon="emojione:calendar" data-inline="false"></span>
+            <span id="dateToday">date</span>
+            </div>
+            <div>
+                <span id="dataBrazil">Brazil</span>
+            </div>
+            <div>
+                <span class="iconify" data-icon="fxemoji:smallsmile" data-inline="false"></span>
+                <span id="dateTodayRecovered">Recovered</span>
+            </div>
+            <div>
+                <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
+                <span id="dateTodayConfirmed"></span>
+            </div>
+            <div>
+                <span class="iconify" data-icon="twemoji:skull" data-inline="false"></span>
+                <span id="dateTodayDead"></span>
+            </div>
         </section>
        
         <script src="C:\Users\kaline\Desktop\projetos\COVID19Data\js\index.js"></script>
 
     </body>
-    <footer id="InfoFooter">
+    <footer id="Footer">
         <a id="github" href="https://github.com/kaline">Kaline B.F Mesquita</a>
     </footer>
 </html>

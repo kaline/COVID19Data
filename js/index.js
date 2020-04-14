@@ -10,7 +10,7 @@
         //document.getElementById("dataBrazil").innerText = JSON.stringify(data["Brazil"]);
         var obj = JSON.parse(JSON.stringify(data));
         var objLength = obj.Brazil.length;
-        
+
         console.log(obj.Brazil.length);
         
         for(var i= 0; i <= objLength; i++){
