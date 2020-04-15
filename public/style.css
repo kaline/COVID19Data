@@ -15,11 +15,9 @@ body{
 
 }
 section{
-    position: absolute;
-    
+    position: absolute; 
     
 }
-
 #status{
      text-align: center; 
     border: black solid 2px;
@@ -49,6 +47,15 @@ section{
      margin: 0px 0px 30px 0; 
 
 }
+#dateTodayActive{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 0 0;
+
+
+}
 #dateTodayDead{
     color:black;
     font-style: italic;
@@ -57,8 +64,6 @@ section{
     margin:  0 0 0 0;
 
 }
-
-
 
 #dateTodayConfirmed{
     
@@ -78,6 +83,22 @@ section{
     margin: 0 0 0 0;
 
 }
+#dateTodayMortality{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 0 0;
+
+}
+#dateTodayCases{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 0 0;
+
+}
 .iconify{
     font-size: 40px;
     /* margin: 0 0px 0 100px; */
@@ -85,7 +106,8 @@ section{
 }
 
 #Footer{
-    margin: 900px 0 0 0;
+    display: block;
+    margin: 1500px 0 0 0;
     width: 100%;
     background-color: lightblue;
     padding: 10px;
