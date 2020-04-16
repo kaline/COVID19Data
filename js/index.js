@@ -17,6 +17,33 @@ url = "https://pomber.github.io/covid19/timeseries.json";
         }
         document.getElementById("dropdown-content").innerHTML = country;
         
+
+       document.getElementById('dropdown-content').addEventListener('click', onClickHandler);
+       document.getElementById('dropdown-content').addEventListener('mousedown', onMousedownHandler);
+
+       function onMousedownHandler(e){
+           var el = e.currentTarget;
+
+           if(el.hasAttribute('size') && el.getAttribute('size') == '1'){
+               e.preventDefault();
+           }
+
+       }
+       function onClickHandler(e){
+           var el = e.currentTarget;
+
+           if(el.hasAttribute('size') == '1'){
+               el.className += "selectOpen";
+               el.setAttribute('size', '5');
+           }else{
+               el.className = '';
+               el.setAttribute('size', '1');
+           }
+
+       }
+
+
+
         var objLength = obj.Brazil.length;
         console.log(obj.Brazil.length);
         var i;
