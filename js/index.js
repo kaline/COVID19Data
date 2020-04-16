@@ -7,6 +7,16 @@ url = "https://pomber.github.io/covid19/timeseries.json";
         //document.getElementById("data").innerText =  JSON.stringify(data);
         //document.getElementById("dataBrazil").innerText = JSON.stringify(data["Brazil"]);
         var obj = JSON.parse(JSON.stringify(data));
+
+        var country = "";
+        var selectPairs = Object.entries(obj);
+        console.log(selectPairs);
+        for(var k = 0; k < selectPairs.length; k++){
+            country += ' <option value="' + selectPairs[k][0] + '">' + selectPairs[k][0] +'</option>';
+            
+        }
+        document.getElementById("dropdown-content").innerHTML = country;
+        
         var objLength = obj.Brazil.length;
         console.log(obj.Brazil.length);
         var i;

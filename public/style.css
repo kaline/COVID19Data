@@ -3,8 +3,9 @@
     font-size: 80px;
     width:100%;
     text-align: center;
-    margin: 0px 0 120px 0;
+    margin: 0px 0 0px 0;
     background-color:#102935;
+    padding: 0 0 40px 0;
 
 }
 #titulo::before{
@@ -15,25 +16,24 @@ body{
 
 }
 section{
-    position: absolute; 
     
 }
 #status{
-     text-align: center; 
+    text-align: center;
     border: black solid 2px;
     padding: 40px;
-    margin: 20px 20px 20px 400px;
+    /* margin: 20px 20px 20px 400px; */
     
 }
 .textStatus{
     font-weight: bold;
     font-size: 30px;
-    margin: 0 0 30px 0;
+     margin: 0 0 30px 0; 
 }
 #dataBrazil{
     font-weight: bolder;
     text-align: left;
-    margin: 60px;
+    /* margin: 60px; */
 
 }
 #dataBrazil::before{
@@ -44,7 +44,7 @@ section{
     color: black;
     font-style: italic;
     font-weight: bold;
-     margin: 0px 0px 30px 0; 
+     /* margin: 0px 0px 30px 0;  */
 
 }
 #dateTodayActive{
@@ -52,7 +52,7 @@ section{
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 
 
 }
@@ -61,7 +61,7 @@ section{
     font-style: italic;
     font-size: 40px;
     font-weight: bold;
-    margin:  0 0 0 0;
+    /* margin:  0 0 0 0; */
 
 }
 
@@ -71,7 +71,7 @@ section{
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 
 }
 
@@ -80,7 +80,7 @@ section{
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 
 }
 #dateTodayMortality{
@@ -88,7 +88,7 @@ section{
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 
 }
 #dateTodayCases{
@@ -96,7 +96,7 @@ section{
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 
 }
 .iconify{
@@ -128,3 +128,77 @@ section{
     content: url('https://api.iconify.design/logos:github-octocat.svg?height=30');
     vertical-align: -0.450em;
 }
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:blue;
+  }
+  
+  #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  #dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  #dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover #dropdown-content {
+    display: block;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .row{
+      margin: 40px 50px;
+  }
+  .row::after{
+      content: "";
+      display: table;
+      clear: both;
+  }

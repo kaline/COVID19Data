@@ -11,7 +11,22 @@
     </head>
     <body>
         <h1 id="titulo">Covid19Data</h1>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">News</a>
+            <div class="dropdown">
+                <button class="dropbtn">Countries
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="dropdown-content">
+                   
+
+                </div>
+            </div>
+        </div>
+        
         <section>
+           
             <div>
             <span class="iconify"  data-icon="emojione:calendar" data-inline="false"></span>
             <span id="dateToday">date</span>
@@ -19,35 +34,52 @@
             <div>
                 <span id="dataBrazil">Brazil</span>
             </div>
-            <div id="status">
-                <p class="textStatus">Today cases</p>
-                <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
-                <span id="dateTodayCases">Today cases</span>
+            <div class="row">
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Today cases</p>
+                        <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
+                        <span id="dateTodayCases">Today cases</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Active cases</p>
+                        <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
+                        <span id="dateTodayActive">Active</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Recovered cases</p>
+                        <span class="iconify" data-icon="fxemoji:smallsmile" data-inline="false"></span>
+                        <span id="dateTodayRecovered">Recovered</span>
+                    </div>
+                </div>
             </div>
-            <div id="status">
-                <p class="textStatus">Active cases</p>
-                <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
-                <span id="dateTodayActive">Active</span>
-            </div>
-            <div id="status">
-                <p class="textStatus">Recovered cases</p>
-                <span class="iconify" data-icon="fxemoji:smallsmile" data-inline="false"></span>
-                <span id="dateTodayRecovered">Recovered</span>
-            </div>
-            <div id="status">
-                <p class="textStatus">Confirmed cases</p>
-                <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
-                <span id="dateTodayConfirmed">Confirmed</span>
-            </div>
-            <div id="status">
-                <p class="textStatus">Deaths'cases</p>
-                <span class="iconify" data-icon="twemoji:skull" data-inline="false"></span>
-                <span id="dateTodayDead">Deaths</span>
-            </div>
-            <div id="status">
-                <p class="textStatus">Mortality</p>
-                <span class="iconify" data-icon="twemoji:skull" data-inline="false"></span>
-                <span id="dateTodayMortality">Mortality</span>
+            
+            <div class="row">
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Confirmed cases</p>
+                        <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
+                        <span id="dateTodayConfirmed">Confirmed</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Deaths'cases</p>
+                        <span class="iconify" data-icon="twemoji:skull" data-inline="false"></span>
+                        <span id="dateTodayDead">Deaths</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="status">
+                        <p class="textStatus">Mortality</p>
+                        <span class="iconify" data-icon="twemoji:skull" data-inline="false"></span>
+                        <span id="dateTodayMortality">Mortality</span>
+                    </div>
+                </div>
             </div>
         </section>
        
