@@ -19,10 +19,11 @@ section{
     
 }
 #status{
+    /* position: relative; */
     text-align: center;
     border: black solid 2px;
     padding: 40px;
-    /* margin: 20px 20px 20px 400px; */
+     /* margin: 20px 20px 20px 20px;  */
     
 }
 .textStatus{
@@ -145,6 +146,8 @@ section{
   .dropdown {
     float: left;
     overflow: hidden;
+   
+            
   }
   
   .dropdown .dropbtn {
@@ -191,7 +194,7 @@ section{
   .column {
     float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: 0 50px;
   }
 
   .row{
