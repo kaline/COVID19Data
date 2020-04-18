@@ -5,6 +5,7 @@
         <title>☣Covid19Data</title>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="C:\Users\kaline\Desktop\projetos\COVID19Data\js\index.js"></script>
 
         <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
 
@@ -18,7 +19,7 @@
                 <button class="dropbtn">Countries
                     <i class="fa fa-caret-down"></i>
                 </button>
-                <select size="5" id="dropdown-content">
+                <select size="5" id="dropdown-content" onchange="getCountry();">
                    
                 </select>
             </div>
@@ -31,14 +32,14 @@
             <span id="dateToday">date</span>
             </div>
             <div>
-                <span id="dataBrazil">Brazil</span>
+                <span type="text" id="dataBrazil" onkeypress="getCountry()">Brazil</span>
             </div>
             <div class="row">
                 <div class="column">
                     <div id="status">
                         <p class="textStatus">Today cases</p>
                         <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
-                        <span id="dateTodayCases">Today cases</span>
+                        <span id="dateTodayCases" >Today cases</span>
                     </div>
                 </div>
                 <div class="column">
@@ -62,7 +63,7 @@
                     <div id="status">
                         <p class="textStatus">Confirmed cases</p>
                         <span class="iconify" data-icon="fxemoji:medicalmask" data-inline="false"></span>
-                        <span id="dateTodayConfirmed">Confirmed</span>
+                        <span id="dateTodayConfirmed" onchange="getCountry();">Confirmed</span>
                     </div>
                 </div>
                 <div class="column">
@@ -82,7 +83,6 @@
             </div>
         </section>
        
-        <script src="C:\Users\kaline\Desktop\projetos\COVID19Data\js\index.js"></script>
 
     </body>
     <footer id="Footer">
