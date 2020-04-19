@@ -46,12 +46,10 @@ url = "https://pomber.github.io/covid19/timeseries.json";
             console.log(index)
             console.log(country)
             var displayCountry = country.value;
-            var objCountry = JSON.parse(JSON.stringify(country))
-            document.getElementById("dataBrazil").innerHTML = displayCountry;
 
-            console.log(objCountry)
             const countryDates = data[displayCountry];
             const lastDate = countryDates.length - 1;
+            document.getElementById("countryName").innerHTML = displayCountry;
             document.getElementById("dateTodayConfirmed").innerHTML = countryDates[lastDate].confirmed;
             document.getElementById("dateTodayRecovered").innerHTML = countryDates[lastDate].recovered;
             document.getElementById("dateTodayDead").innerHTML = countryDates[lastDate].deaths;
@@ -65,6 +63,11 @@ url = "https://pomber.github.io/covid19/timeseries.json";
             document.getElementById("dateTodayMortality").innerHTML = mortality + "%";
             var activeCases = (countryDates[lastDate].confirmed-(countryDates[lastDate].deaths + countryDates[lastDate].recovered));
             document.getElementById("dateTodayActive").innerHTML = activeCases;
+
+           var flag = flags.find(e => e.name == displayCountry).code.toLowerCase(); //.get(displayCountry);
+           console.log(flag);
+           // document.getElementById("flag").innerHTML = flag;
+           document.getElementById("flag").className = "flag-icon flag-icon-" + flag;
             
         }
       

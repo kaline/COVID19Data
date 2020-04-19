@@ -31,16 +31,18 @@ section{
     font-size: 30px;
      margin: 0 0 30px 0; 
 }
-#dataBrazil{
+#countryName{
     font-weight: bolder;
     text-align: left;
-    /* margin: 60px; */
+    margin: 0;
 
 }
-#dataBrazil::before{
-    content: url('https://api.iconify.design/emojione-v1:flag-for-brazil.svg?height=60');
-    /* margin: 60px 0px 40px 0px; */
+#flag{
+  margin: 30px;
+  font-size: 100px;
+
 }
+
 #dateToday{
     color: black;
     font-style: italic;

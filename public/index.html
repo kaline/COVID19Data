@@ -6,8 +6,11 @@
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="C:\Users\kaline\Desktop\projetos\COVID19Data\js\index.js"></script>
+        <script src="C:\Users\kaline\Desktop\projetos\COVID19Data\js\flags.js"></script>
+
 
         <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css">
 
     </head>
     <body>
@@ -32,7 +35,9 @@
             <span id="dateToday">date</span>
             </div>
             <div>
-                <span type="text" id="dataBrazil" onkeypress="getCountry()">Brazil</span>
+                <span id="flag" class="flag-icon-br flag-icon"  onkeypress="getCountry()"></span>
+                <span id="countryName" onkeypress="getCountry()">Brazil</span>
+
             </div>
             <div class="row">
                 <div class="column">
