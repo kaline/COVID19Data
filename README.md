@@ -34,5 +34,5 @@
 
 <h2>&#128161;References<h2>
   
-***** A <a href="https://pomber.github.io/covid19/timeseries.json">API</a> do projeto <a href="https://github.com/pomber/covid19">covid19</a>.
+*****A <a href="https://pomber.github.io/covid19/timeseries.json">API</a> do projeto <a href="https://github.com/pomber/covid19">covid19</a>.
 
