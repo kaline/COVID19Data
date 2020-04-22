@@ -12,8 +12,6 @@
         <script src="js\index.js"></script>
         <script src="js\flags.js"></script>
         <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
-
-
     </head>
     <body>
         <h1 id="titulo">Covid19Data</h1>
@@ -25,13 +23,14 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <select size="5" id="dropdown-content" onchange="getCountry();">
-                   
                 </select>
             </div>
+            <div class="twitter">
+                <a href="https://twitter.com/intent/tweet?screen_name=COVID-19Data&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @COVID-19Data</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
-        
+
         <section>
-           
             <div>
             <span class="iconify"  data-icon="emojione:calendar" data-inline="false"></span>
             <span id="dateToday">date</span>
@@ -89,8 +88,11 @@
                 </div>
             </div>
         </section>
-        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
-        <div id="chartContainer1" style="height: 400px; width: 100%;"></div>
+        <div>
+            <div id="chartContainer" class="chartContainer"></div>
+            <div id="chartContainer1" class="chartContainer"></div>
+        </div>
+        
 
 
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>

@@ -20,10 +20,9 @@ section{
     
 }
 #status{
-    /* position: relative; */
     text-align: center;
     border: black solid 2px;
-    padding: 30px;
+    padding: 20px;
      /* margin: 20px 20px 20px 20px;  */
     
 }
@@ -110,8 +109,9 @@ section{
 }
 
 #Footer{
-    display: block;
-    margin: 1px 0 0 0;
+     /* position: absolute; */
+    display: block; 
+    margin: 1px 0 0 0; 
     width: 100%;
     background-color: lightblue;
     padding: 10px;
@@ -123,7 +123,7 @@ section{
   text-decoration: none;
   color: black;
   font-weight: bold;
-  margin: 300px 0 0 0;
+  /* margin: 300px 0 0 0; */
   border:black solid 5px;
   text-align: center;
   padding: 10px 10px 10px 10px;
@@ -151,6 +151,13 @@ section{
     overflow: hidden;
 
             
+  }
+  .twitter{
+    float: right;
+    overflow: hidden;
+    text-align: center;
+
+
   }
   
   .dropdown .dropbtn {
@@ -201,15 +208,43 @@ section{
 
   .column {
     float: left;
-    width: 25%;
-    padding: 0 40px;
+    width: 30%;
+    padding: 0px 10px;
   }
 
   .row{
-      margin: 30px 40px;
+    margin: 40px 50px;
   }
   .row::after{
       content: "";
       display: table;
       clear: both;
+  }
+
+  .chartContainer{
+    height:500px; 
+    width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      float: left;
+      width: 100%;
+      padding: 0px 10px;
+      display: block; 
+       margin-bottom: 35px;
+    }
+    .row {margin: 0px 10px;}
+
+   
+
+  }
+
+  @media screen and (max-width: 440px) {
+    .chartContainer{
+     
+      width: 100%;
+    }
+   
+  
   }
