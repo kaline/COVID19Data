@@ -152,12 +152,10 @@ section{
 
             
   }
-  .twitter{
-    float: right;
-    overflow: hidden;
-    text-align: center;
-
-
+  .share{
+    float: center;
+    /* overflow: hidden; */
+    padding: 6px 0px;
   }
   
   .dropdown .dropbtn {
