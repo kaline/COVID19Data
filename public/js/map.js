@@ -69,7 +69,6 @@ function init() {
       null);
     var gmap = new OpenLayers.Layer.Google("Google Streets", {visibility: false});
 
-    // note that first layer must be visible
     map.addLayers([osm, gmap], circle);
 
 

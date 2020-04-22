@@ -1,6 +1,5 @@
 
 
-//   const fetch = require('node-fetch');
 
 url = "https://pomber.github.io/covid19/timeseries.json";
     fetch(url)
@@ -69,8 +68,7 @@ url = "https://pomber.github.io/covid19/timeseries.json";
             var activeCases = (countryDates[lastDate].confirmed-(countryDates[lastDate].deaths + countryDates[lastDate].recovered));
             document.getElementById("dateTodayActive").innerHTML = activeCases;
 
-           var flag = flags.find(e => e.name == displayCountry).code.toLowerCase(); //.get(displayCountry);
-           console.log(flag);
+           var flag = flags.find(e => e.name == displayCountry).code.toLowerCase(); 
            document.getElementById("flag").className = "flag-icon flag-icon-" + flag;
 
            var chart1 = new CanvasJS.Chart("chartContainer1", {
@@ -111,7 +109,7 @@ url = "https://pomber.github.io/covid19/timeseries.json";
                 xValueFormatString: "DD MMM, YYYY",
                 color: "blue",
                 dataPoints: [
-                    { x: new Date(2020, 04, 20), y: countryDates[lastDate].confirmed},
+                    { x: new Date(2020, 04, 22), y: countryDates[lastDate].confirmed},
                     { x: new Date(2020, 04, 10), y: countryDates[80].confirmed },
                     { x: new Date(2020, 04, 01), y: countryDates[70].confirmed },
                     { x: new Date(2020, 03, 20), y: countryDates[50].confirmed },
@@ -133,7 +131,7 @@ url = "https://pomber.github.io/covid19/timeseries.json";
                 name: "RC",
                 lineDashType: "dash",
                 dataPoints: [
-                    { x: new Date(2020, 04, 20), y: countryDates[lastDate].recovered},
+                    { x: new Date(2020, 04, 22), y: countryDates[lastDate].recovered},
                     { x: new Date(2020, 04, 10), y: countryDates[80].recovered },
                     { x: new Date(2020, 04, 01), y: countryDates[70].recovered },
                     { x: new Date(2020, 03, 20), y: countryDates[50].recovered },
@@ -155,7 +153,7 @@ url = "https://pomber.github.io/covid19/timeseries.json";
                 name: "DC",
                 lineDashType: "dot",
                 dataPoints: [
-                    { x: new Date(2020, 04, 20), y: countryDates[lastDate].deaths},
+                    { x: new Date(2020, 04, 22), y: countryDates[lastDate].deaths},
                     { x: new Date(2020, 04, 10), y: countryDates[80].deaths },
                     { x: new Date(2020, 04, 01), y: countryDates[70].deaths },
                     { x: new Date(2020, 03, 20), y: countryDates[50].deaths },
@@ -292,7 +290,7 @@ url = "https://pomber.github.io/covid19/timeseries.json";
                    {
                     type: "column",
                     name:"People(DC)",
-                    legendText: "DC = Deaths' cases",
+                    legendText: "DC = Death cases",
                     showInLegend:true,
 
                     dataPoints:[
