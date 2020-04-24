@@ -7,7 +7,7 @@
 <h2>&#128105;&#8205;&#127979;What's it?</h2>
 
 <p>
-  A web application which you can see data daily about <a href="https://coronavirus.saude.gov.br/">COVID19</a>.
+  A web application which you can to view data daily about <a href="https://coronavirus.saude.gov.br/">COVID19</a>.
 </p>
 
 <hr>
