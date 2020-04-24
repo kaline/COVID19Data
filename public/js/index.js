@@ -183,6 +183,12 @@ url = "https://pomber.github.io/covid19/timeseries.json";
         }
             
         }
+
+
+
+        window.init = function(){
+
+        }
       
         var objLength = obj.Brazil.length;
         

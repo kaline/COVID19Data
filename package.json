@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kaline/COVID19Data#readme",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "browserify": "^16.5.1",
     "express": "^4.17.1",
     "http": "0.0.1-security",

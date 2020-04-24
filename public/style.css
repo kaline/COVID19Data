@@ -1,5 +1,6 @@
 #titulo{
     color:#9AD4D6;
+    font-family: 'helvetica';
     font-size: 80px;
     width:100%;
     text-align: center;
@@ -13,13 +14,14 @@
     font-size: 70px;
 }
 body{
-  background-color:lightgrey;
+  background-color:whitesmoke;
 
 }
 section{
     
 }
 #status{
+    font-family: 'helvetica';
     text-align: center;
     border: black solid 2px;
     padding: 20px;
@@ -32,12 +34,14 @@ section{
      margin: 0 0 20px 0; 
 }
 #countryName{
+    font-family: 'helvetica';
     font-weight: bolder;
     text-align: left;
     margin: 0;
 
 }
 #flag{
+
   margin: 30px;
   font-size: 100px;
 
@@ -133,6 +137,7 @@ section{
     vertical-align: -0.450em;
 }
 .navbar {
+    font-family: 'helvetica';
     overflow: hidden;
     background-color: #333;
     font-weight: bold;
